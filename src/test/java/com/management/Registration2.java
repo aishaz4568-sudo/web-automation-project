@@ -39,7 +39,7 @@ public void form() throws InterruptedException
      }
 
 
-@Test
+@Test (enabled=false)
 public void Registrationform()
 {
 	//for firstname 

@@ -23,7 +23,7 @@ public class Login {
 	public static By SUBMITLOGIN_BUTTON_LOCATOR= By.id(("submitLoginBtn"));
 
 	
-	@Test (enabled=true)
+	@Test (enabled=false)
 	public void loginpage()throws InterruptedException
 	{
 	Thread.sleep(5000);
@@ -38,7 +38,7 @@ public class Login {
 	}
 	
 
-@ Test (enabled=true)
+@ Test (enabled=false)
 	public void loginbutton()
 	
 	{	

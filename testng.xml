@@ -7,7 +7,10 @@
     <class name="com.management.Login"/>
     <class name="com.management.Registration2"> 
     </class>
-
+    <class name="com.management.Locators">
+    </class>
+    <class name="com.management.FileUploadtest">
+</class>
       
     </classes>
   </test> <!-- Test -->
