@@ -50,6 +50,6 @@ src/test/java
 4. Run tests using TestNG
 
 ## 👩‍💻 Author
-Aisha Zahid  
+Ayesha Zahid  
 Junior Web Automation Tester  
 Selenium | Java | TestNG
