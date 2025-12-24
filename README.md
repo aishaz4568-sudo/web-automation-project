@@ -54,8 +54,11 @@ Practice1/
 
 This project uses Log4j2 for logging. Log4j2 is a Java-based logging framework that helps track events during test execution.
 Logging levels used:
+
 INFO – Successful steps execution
+
 WARN – Element present but not interactable
+
 ERROR – Element not found or test failure
 
 ## ⏳ Synchronization Used
