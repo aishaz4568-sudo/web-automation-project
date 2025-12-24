@@ -13,10 +13,25 @@ It demonstrates core automation skills such as element handling, waits, and vali
 - ChromeDriver
 
 ## 📂 Project Structure
-src/test/java  
-- LoginTest.java  
-- RegistrationTest.java  
-  Locators.java  
+Practice1/
+│── src/main/java
+│   └── com.unique
+│       └── Unique.java
+│
+│── src/test/java
+│   └── com.management
+│       ├── Login.java
+│       ├── Registration2.java
+│       ├── Locators.java
+│       ├── UploadFile.java
+│── src/main/resources
+│   └── log4j2.xml
+│
+│── testng.xml
+│── pom.xml
+│── README.md
+│── logs/
+
 
 ## ✅ Automated Test Scenarios
 
@@ -34,6 +49,13 @@ src/test/java
 - Upload file (if applicable)
 - Submit form
 - Verify success message
+
+###📝 Logging
+
+This project uses Log4j2 for logging. Log4j2 is a Java-based logging framework that helps track events during test execution. It provides different logging levels such as:
+INFO – Successful steps execution
+WARN – Element present but not interactable
+ERROR – Element not found or test failure
 
 ## ⏳ Synchronization Used
 - Explicit Wait (WebDriverWait)
