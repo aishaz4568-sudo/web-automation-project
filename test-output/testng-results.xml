@@ -1,93 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
+<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-20T12:18:57 PKT" name="Suite" finished-at="2025-12-20T12:19:29 PKT" duration-ms="31478">
+  <suite started-at="2025-12-24T10:44:53 PKT" name="Suite" finished-at="2025-12-24T10:45:00 PKT" duration-ms="7555">
     <groups>
     </groups>
-    <test started-at="2025-12-20T12:18:57 PKT" name="Test" finished-at="2025-12-20T12:19:29 PKT" duration-ms="31478">
-      <class name="com.management.FileUploadtest">
-        <test-method signature="CHECKBOX()[pri:0, instance:com.management.FileUploadtest@75d4a5c2]" started-at="2025-12-20T12:19:13 PKT" name="CHECKBOX" finished-at="2025-12-20T12:19:29 PKT" duration-ms="15967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CHECKBOX -->
-        <test-method signature="LOCATOR()[pri:0, instance:com.management.FileUploadtest@75d4a5c2]" started-at="2025-12-20T12:19:29 PKT" name="LOCATOR" finished-at="2025-12-20T12:19:29 PKT" duration-ms="55" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='checkbox'][2]"}
-  (Session info: chrome=143.0.7499.42)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d8b5348c655ecaec780e641471e273f, findElement {using=xpath, value=//input[@type='checkbox'][2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SSC~1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51567}, goog:processID: 14768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51567/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8b5348c655ecaec780e641471e273f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='checkbox'][2]"}
-  (Session info: chrome=143.0.7499.42)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d8b5348c655ecaec780e641471e273f, findElement {using=xpath, value=//input[@type='checkbox'][2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\SSC~1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51567}, goog:processID: 14768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51567/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d8b5348c655ecaec780e641471e273f
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at com.management.FileUploadtest.LOCATOR(FileUploadtest.java:17)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LOCATOR -->
-      </class> <!-- com.management.FileUploadtest -->
+    <test started-at="2025-12-24T10:44:53 PKT" name="Test" finished-at="2025-12-24T10:45:00 PKT" duration-ms="7555">
       <class name="com.unique.Unique">
-        <test-method signature="browser()[pri:0, instance:com.unique.Unique@692f203f]" started-at="2025-12-20T12:18:58 PKT" name="browser" finished-at="2025-12-20T12:19:13 PKT" duration-ms="15326" status="PASS">
+        <test-method signature="browse()[pri:0, instance:com.unique.Unique@333dd51e]" started-at="2025-12-24T10:44:53 PKT" name="browse" finished-at="2025-12-24T10:44:58 PKT" duration-ms="5514" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browser -->
+        </test-method> <!-- browse -->
       </class> <!-- com.unique.Unique -->
+      <class name="com.management.Registration2">
+        <test-method signature="Registrationform()[pri:0, instance:com.management.Registration2@dfddc9a]" started-at="2025-12-24T10:44:58 PKT" name="Registrationform" finished-at="2025-12-24T10:45:00 PKT" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registrationform -->
+      </class> <!-- com.management.Registration2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -2,6 +2,8 @@ package com.management;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,8 +20,11 @@ public class Registration2 {
 	public static By PHONE_NUMBER_LOCATOR=By.id("phone");
 	public static By COUNTRY_NAME_LOCATOR=By.id("countries_dropdown_menu");
 	public static By EMAIL_ADDRESS_LOCATOR=By.id("emailAddress");
-	public static By PASSWORD_NAME_LOCATOR=By.id("password");
+	public static By PASSWORD_LOCATOR=By.id("password");
 	public static By REGISTER_BUTTON_LOCATOR=By.id("registerBtn");
+
+	public static Logger logs = LogManager.getLogger(Registration2.class);
+
 	
 	@Test (enabled=false)
 	
@@ -39,27 +44,36 @@ public void form() throws InterruptedException
      }
 
 
-@Test (enabled=false)
+@Test (enabled=true)
 public void Registrationform()
 {
 	//for firstname 
-	WebDriverWait wait = new WebDriverWait(Unique.driver,Duration.ofSeconds(10));
-try {
 	
+
+	WebDriverWait wait = new WebDriverWait(Unique.driver,Duration.ofSeconds(10));
+	
+try {
+   
+	logs.info("Waiting for First Name field");
+
 	WebElement FIRST_NAME_FIELD = wait.until(ExpectedConditions.presenceOfElementLocated(FIRST_NAME_LOCATOR));
 	if (FIRST_NAME_FIELD.isDisplayed() && FIRST_NAME_FIELD.isEnabled() ) {
+        logs.info("First Name field found and enabled");
+
 		FIRST_NAME_FIELD.clear();
 		FIRST_NAME_FIELD.sendKeys("AISHA");
-		
+        logs.info(" Sucessfully Entered First Name");
+
 	}
 	else {
-		System.out.println("Unable to find firstname locator");
+        logs.warn("First Name field is present but not visible or not enabled");
 	}
 	
 	
 } catch (Exception e) {
 	// TODO: handle exception
-	System.out.println("Unable to find firstname locator");
+    logs.error("First Name field not found", e);
+
 }
 	
 	
@@ -67,110 +81,133 @@ try {
 
 try {
 	
+    logs.info("Waiting for Last Name field");
+
 	WebElement LAST_NAME_FIELD = wait.until(ExpectedConditions.presenceOfElementLocated(LAST_NAME_LOCATOR));
 	if (LAST_NAME_FIELD.isDisplayed() && LAST_NAME_FIELD.isEnabled() ) {
+        logs.info("Last Name field found and enabled");
+
 		LAST_NAME_FIELD.clear();
 		LAST_NAME_FIELD.sendKeys("ZAHID");
-		
+        logs.info(" Sucessfully Entered Last Name");
+
 	}
 	else {
-		System.out.println("Unable to find lastname locator");
+        logs.warn("Last Name field is present but not visible or not enabled");
 	}
 	
 	
 } catch (Exception e) {
 	// TODO: handle exception
-	System.out.println("Unable to find lastname locator");
+    logs.error("Last Name field not found", e);
 }
 	
 //for phone
 try {
-	
+    logs.info("Waiting for PHONE_NUMBER field");
+
 	WebElement PHONE_NUMBER_FIELD = wait.until(ExpectedConditions.presenceOfElementLocated(PHONE_NUMBER_LOCATOR));
 	if (PHONE_NUMBER_FIELD.isDisplayed() && PHONE_NUMBER_FIELD.isEnabled() ) {
+        logs.info("PHONE_NUMBER field found and enabled");
+
 		PHONE_NUMBER_FIELD.clear();
 		PHONE_NUMBER_FIELD.sendKeys("0309");
-		
+        logs.info("Sucessfully entered PHONE_NUMBER");
+
 	}
 	else {
-		System.out.println("Unable to find phone number locator");
+        logs.warn("PHONE_NUMBER field is present but not visible or not enabled");
 	}
 	
 	
 } catch (Exception e) {
 	// TODO: handle exception
-	System.out.println("Unable to find phone number locator");
+    logs.error("PHONE_NUMBER field not found", e);
 }
 	
 	// for country 
 try {
-	
+    logs.info("Waiting for Country Name field");
+
 	WebElement COUNTRY_NAME_FIELD = wait.until(ExpectedConditions.presenceOfElementLocated(COUNTRY_NAME_LOCATOR));
 	if (COUNTRY_NAME_FIELD.isDisplayed() && COUNTRY_NAME_FIELD.isEnabled() ) {
+        logs.info("Country  Name field found and enabled");
+
 		Select COUNTRY_DROPDOWN = new Select(COUNTRY_NAME_FIELD);
         COUNTRY_DROPDOWN.selectByValue("Pakistan");
-		
+        logs.info(" Sucessfully entered Country  Name");
+
 	}
 	else {
-		System.out.println("Unable to find country name locator");
+        logs.warn("Country  Name field is present but not visible or not enabled");
 	}
 	
 	
 } catch (Exception e) {
 	// TODO: handle exception
-	System.out.println("Unable to find country name locator");
+    logs.error("Country  Name field not found", e);
 }
 	//for emailaddress
 try {
-	
+    logs.info("Waiting for Email Address field");
+
 	WebElement EMAIL_ADDRESS_FIELD = wait.until(ExpectedConditions.presenceOfElementLocated(EMAIL_ADDRESS_LOCATOR));
 	if (EMAIL_ADDRESS_FIELD.isDisplayed() && EMAIL_ADDRESS_FIELD.isEnabled() ) {
+        logs.info("Email Address field found and enabled");
+
 		EMAIL_ADDRESS_FIELD.clear();
-		EMAIL_ADDRESS_FIELD.sendKeys("aisha4568");
-		
+		EMAIL_ADDRESS_FIELD.sendKeys("aishaz");
+        logs.info("Sucessfully  Entered Email Address");
+
 	}
 	else {
-		System.out.println("Unable to find email address locator");
+        logs.warn("Email Address field is present but not visible or not enabled");
 	}
 	
 	
 } catch (Exception e) {
 	// TODO: handle exception
-	System.out.println("Unable to find email addresslocator");
+    logs.error("Email Address field not found", e);
 }
 	
 	// for password
 try {
-	
-	WebElement PASSWORD_NAME_FIELD = wait.until(ExpectedConditions.presenceOfElementLocated(PASSWORD_NAME_LOCATOR));
-	if (PASSWORD_NAME_FIELD.isDisplayed() && PASSWORD_NAME_FIELD.isEnabled() ) {
-		PASSWORD_NAME_FIELD.clear();
-		PASSWORD_NAME_FIELD.sendKeys("3321");
-		
+    logs.info("Waiting for Password field");
+
+	WebElement PASSWORD_FIELD = wait.until(ExpectedConditions.presenceOfElementLocated(PASSWORD_LOCATOR));
+	if (PASSWORD_FIELD.isDisplayed() && PASSWORD_FIELD.isEnabled() ) {
+        logs.info(" Password  field found and enabled");
+
+		PASSWORD_FIELD.clear();
+		PASSWORD_FIELD.sendKeys("3321");
+        logs.info(" Sucessfully Entered  Password ");
+
 	}
 	else {
-		System.out.println("Unable to find password name locator");
+        logs.warn(" Password  field is present but not visible or not enabled");
 	}
 	
 	
 } catch (Exception e) {
 	// TODO: handle exception
-	System.out.println("Unable to find password name locator");
+    logs.error(" Password  field not found", e);
 }
 	
 	//for register button  
 try {
-	
-	WebElement REGISTER_BUTTON_FIELD = wait.until(ExpectedConditions.presenceOfElementLocated(REGISTER_BUTTON_LOCATOR));
-	 REGISTER_BUTTON_FIELD .click();
-	    
+    logs.info("Waiting for Register button");
 
-//// 
-//// // Print text for confirmation
-    System.out.println("click :" + REGISTER_BUTTON_FIELD );
-}
-catch (Exception e) {
-    System.out.println("Unable to locate or click first submitloginbtn: " + e.getMessage());
+    WebElement registerButton =
+        wait.until(ExpectedConditions.elementToBeClickable(REGISTER_BUTTON_LOCATOR));
+
+    logs.info("Register button found and clickable");
+
+    registerButton.click();
+
+    logs.info("Register button clicked successfully");
+
+} catch (Exception e) {
+    logs.error("Register button not found or not clickable", e);
 }
 	
 

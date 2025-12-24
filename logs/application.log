@@ -1,0 +1,206 @@
+2025-12-22 20:58:16 DEBUG - suiteXmlPath: "C:\Users\SSC~1\AppData\Local\Temp\testng-eclipse--963834551\testng-customsuite.xml"
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 11 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-22 20:58:16 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-22 20:58:16 INFO  - [TestNG] Running:
+  C:\Users\SS C\AppData\Local\Temp\testng-eclipse--963834551\testng-customsuite.xml
+
+2025-12-22 20:58:16 INFO  - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2025-12-22 20:58:20 INFO  - Launching a chrome browsers
+2025-12-22 20:58:20 INFO  - Application started
+2025-12-22 20:58:20 WARN  - Warning message
+2025-12-22 20:58:24 INFO  - [TestNG] Time taken by org.testng.reporters.jq.Main@5467eea4: 160 ms
+2025-12-22 20:58:24 INFO  - [TestNG] Time taken by org.testng.reporters.FailedReporter@40ab8a8: 4 ms
+2025-12-22 20:58:25 INFO  - [TestNG] Time taken by org.testng.reporters.XMLReporter@2eb79cbe: 15 ms
+2025-12-22 20:58:25 INFO  - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5bfc257: 13 ms
+2025-12-22 20:58:25 INFO  - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3af356f: 12 ms
+2025-12-22 20:58:25 INFO  - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4443ef6f: 0 ms
+2025-12-23 19:41:32 DEBUG - suiteXmlPath: "E:\Automation\Practice1\testng.xml"
+2025-12-23 19:41:33 INFO  - [TestNG] Running:
+  E:\Automation\Practice1\testng.xml
+
+2025-12-23 19:42:03 INFO  - Launching a chrome browsers
+2025-12-23 19:42:03 INFO  - Application started
+2025-12-23 19:42:03 WARN  - Warning message
+2025-12-23 19:42:03 ERROR - Test Faileur
+2025-12-23 19:42:08 INFO  - Waiting for First Name field
+2025-12-23 19:42:08 INFO  - First Name field found and enabled
+2025-12-23 19:42:08 INFO  - Entered First Name: AISHA
+2025-12-23 19:45:06 DEBUG - suiteXmlPath: "E:\Automation\Practice1\testng.xml"
+2025-12-23 19:45:07 INFO  - [TestNG] Running:
+  E:\Automation\Practice1\testng.xml
+
+2025-12-23 19:45:11 INFO  - Launching a chrome browsers
+2025-12-23 19:45:11 INFO  - Application started
+2025-12-23 19:45:11 WARN  - Warning message
+2025-12-23 19:45:11 ERROR - Test Faileur
+2025-12-23 19:45:13 INFO  - Waiting for First Name field
+2025-12-23 19:45:13 INFO  - First Name field found and enabled
+2025-12-23 19:45:14 INFO  - Entered First Name: AISHA
+2025-12-23 23:47:40 DEBUG - suiteXmlPath: "C:\Users\SSC~1\AppData\Local\Temp\testng-eclipse--2026863829\testng-customsuite.xml"
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 16 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:47:40 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:47:40 INFO  - [TestNG] Running:
+  C:\Users\SS C\AppData\Local\Temp\testng-eclipse--2026863829\testng-customsuite.xml
+
+2025-12-23 23:47:40 INFO  - [Utils] DynamicGraphHelper.createDynamicGraph() took 14 ms.
+2025-12-23 23:47:42 INFO  - [TestNG] Time taken by org.testng.reporters.jq.Main@10fde30a: 324 ms
+2025-12-23 23:47:42 INFO  - [TestNG] Time taken by org.testng.reporters.FailedReporter@346939bf: 4 ms
+2025-12-23 23:47:42 INFO  - [TestNG] Time taken by org.testng.reporters.XMLReporter@7db82169: 16 ms
+2025-12-23 23:47:42 INFO  - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@b40bb6e: 14 ms
+2025-12-23 23:47:42 INFO  - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@107ed6fc: 13 ms
+2025-12-23 23:47:42 INFO  - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1643d68f: 0 ms
+2025-12-23 23:48:30 DEBUG - suiteXmlPath: "C:\Users\SSC~1\AppData\Local\Temp\testng-eclipse-135317720\testng-customsuite.xml"
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 15 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-23 23:48:31 INFO  - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-23 23:48:31 INFO  - [TestNG] Running:
+  C:\Users\SS C\AppData\Local\Temp\testng-eclipse-135317720\testng-customsuite.xml
+
+2025-12-23 23:48:31 INFO  - [Utils] DynamicGraphHelper.createDynamicGraph() took 13 ms.
+2025-12-23 23:48:32 INFO  - [TestNG] Time taken by org.testng.reporters.jq.Main@10fde30a: 244 ms
+2025-12-23 23:48:32 INFO  - [TestNG] Time taken by org.testng.reporters.FailedReporter@346939bf: 4 ms
+2025-12-23 23:48:32 INFO  - [TestNG] Time taken by org.testng.reporters.XMLReporter@7db82169: 19 ms
+2025-12-23 23:48:32 INFO  - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@b40bb6e: 16 ms
+2025-12-23 23:48:32 INFO  - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@107ed6fc: 14 ms
+2025-12-23 23:48:32 INFO  - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1643d68f: 0 ms
+2025-12-24 10:36:02 DEBUG - suiteXmlPath: "E:\Automation\Practice1\testng.xml"
+2025-12-24 10:36:03 INFO  - [TestNG] Running:
+  E:\Automation\Practice1\testng.xml
+
+2025-12-24 10:36:35 INFO  - Launching a chrome browsers
+2025-12-24 10:36:35 INFO  - Application started
+2025-12-24 10:36:35 WARN  - Warning message
+2025-12-24 10:36:35 ERROR - Test Faileur
+2025-12-24 10:36:39 INFO  - Waiting for First Name field
+2025-12-24 10:36:39 INFO  - First Name field found and enabled
+2025-12-24 10:36:40 INFO  - Entered First Name: AISHA
+2025-12-24 10:36:40 INFO  - Waiting for Last Name field
+2025-12-24 10:36:40 INFO  - Last Name field found and enabled
+2025-12-24 10:36:40 INFO  - Entered Last Name: ZAHID
+2025-12-24 10:36:40 INFO  - Waiting for PHONE_NUMBER field
+2025-12-24 10:36:40 INFO  - PHONE_NUMBER field found and enabled
+2025-12-24 10:36:40 INFO  - Entered PHONE_NUMBER: 0309
+2025-12-24 10:36:40 INFO  - Waiting for Country Name field
+2025-12-24 10:36:40 INFO  - Country  Name field found and enabled
+2025-12-24 10:36:41 INFO  - Entered Country  Name: Pakistan
+2025-12-24 10:36:41 INFO  - Waiting for Email Address field
+2025-12-24 10:36:41 INFO  - Email Address field found and enabled
+2025-12-24 10:36:41 INFO  - Entered Email Address: aishaz
+2025-12-24 10:36:41 INFO  - Waiting for Password field
+2025-12-24 10:36:41 INFO  -  Password  field found and enabled
+2025-12-24 10:36:41 INFO  - Entered  Password : AISHA
+2025-12-24 10:36:41 INFO  - Waiting for Register button
+2025-12-24 10:36:41 INFO  - Register button found and clickable
+2025-12-24 10:36:41 INFO  - Register button clicked successfully
+2025-12-24 10:44:52 DEBUG - suiteXmlPath: "E:\Automation\Practice1\testng.xml"
+2025-12-24 10:44:53 INFO  - [TestNG] Running:
+  E:\Automation\Practice1\testng.xml
+
+2025-12-24 10:44:56 INFO  - Launching a chrome browsers
+2025-12-24 10:44:56 INFO  - Application started
+2025-12-24 10:44:56 WARN  - Warning message
+2025-12-24 10:44:56 ERROR - Test Faileur
+2025-12-24 10:44:58 INFO  - Waiting for First Name field
+2025-12-24 10:44:59 INFO  - First Name field found and enabled
+2025-12-24 10:44:59 INFO  -  Sucessfully Entered First Name
+2025-12-24 10:44:59 INFO  - Waiting for Last Name field
+2025-12-24 10:44:59 INFO  - Last Name field found and enabled
+2025-12-24 10:44:59 INFO  -  Sucessfully Entered Last Name
+2025-12-24 10:44:59 INFO  - Waiting for PHONE_NUMBER field
+2025-12-24 10:44:59 INFO  - PHONE_NUMBER field found and enabled
+2025-12-24 10:44:59 INFO  - Sucessfully entered PHONE_NUMBER
+2025-12-24 10:44:59 INFO  - Waiting for Country Name field
+2025-12-24 10:44:59 INFO  - Country  Name field found and enabled
+2025-12-24 10:45:00 INFO  -  Sucessfully entered Country  Name
+2025-12-24 10:45:00 INFO  - Waiting for Email Address field
+2025-12-24 10:45:00 INFO  - Email Address field found and enabled
+2025-12-24 10:45:00 INFO  - Sucessfully  Entered Email Address
+2025-12-24 10:45:00 INFO  - Waiting for Password field
+2025-12-24 10:45:00 INFO  -  Password  field found and enabled
+2025-12-24 10:45:00 INFO  -  Sucessfully Entered  Password 
+2025-12-24 10:45:00 INFO  - Waiting for Register button
+2025-12-24 10:45:00 INFO  - Register button found and clickable
+2025-12-24 10:45:00 INFO  - Register button clicked successfully

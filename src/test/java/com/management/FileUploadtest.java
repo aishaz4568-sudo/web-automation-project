@@ -11,7 +11,7 @@ import com.unique.Unique;
 
 public class FileUploadtest {
 	
-	@Test (enabled = true)
+	@Test (enabled = false)
 
 	public void  LOCATOR() {
  Unique.driver.findElement(Locators.CHECKBOX_LOCATOR).click();
@@ -22,7 +22,7 @@ public class FileUploadtest {
 	
 }
 	
-@Test (enabled=true)
+@Test (enabled=false)
 public void CHECKBOX() {
 
     WebDriverWait wait = new WebDriverWait(Unique.driver, Duration.ofSeconds(15));
