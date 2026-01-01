@@ -120,7 +120,7 @@ try {
 	}
 	else {
         logs.warn("Last Name field is present but not visible or not enabled");
-		Unique.loggers.log(Status.FAIL, "Unable to locate first name field");
+		Unique.loggers.log(Status.FAIL, "Unable to locate last name field");
 
 	}
 	
